@@ -2,11 +2,10 @@
   <h2>{{hero.name | uppercase}} Details</h2>
   <div><span>id: </span>{{hero.id}}</div>
   <div>
-    <label for="hero-name">Hero name: </label>
-    <input id="hero-name" [(ngModel)]="hero.name" placeholder="Hero name"/>
+    <nimble-text-field appearance="block" id="hero-name" label="Hero name" [(ngModel)]="hero.name" >Hero name</nimble-text-field>
   </div>
-  <button (click)="goBack()">go back</button>
-  <button (click)="save()">save</button>
+  <nimble-button (click)="goBack()">go back</nimble-button>
+  <nimble-button (click)="save()">save</nimble-button>
 </div>
 
 

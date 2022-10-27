@@ -1,6 +1,10 @@
 /* Global Styles */
+@import '~@ni/nimble-angular/styles/fonts';
+@import '~@ni/nimble-angular/styles/tokens';
+
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: $ni-nimble-body-font-family;
+  color: $ni-nimble-body-font-color;
 }
 h1 {
   color: #264D73;
